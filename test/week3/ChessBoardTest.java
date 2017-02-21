@@ -79,6 +79,7 @@ public class ChessBoardTest {
         ChessBoard instance = new ChessBoard();
         String expResult = "";
         String result = instance.toString();
+        System.out.println(result);
         assertNotEquals(expResult, result);
         
     }
